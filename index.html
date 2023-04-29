@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type='text/javascript'
+        src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=Au3LSzanBLGwhJ0mu3GmwWd-L1UDsSk7iC5QMczU8NxRYIjWJYFBSEfcuE4NU3SI'></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>FROSH home</title>
+</head>
+
+<body onload="loadMapScenario();">
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#campus">Campus Map</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!--Yaha p home shuru h-->
+    <section class="hero" id="home">
+        <img src="images/1.png" class="translateX" data-speed="0.25" id="moon" alt="">
+        <img src="images/2.png" class="translateY" data-speed="0.35" id="clouds" alt="">
+        <img src="images/3.png" class="translateY" data-speed="0.15" id="mount" alt="">
+        <h1 id="text" class="translateX" data-speed="-2">FROSH 2K23</h1>
+        <a href="#gallery" id="btn">Explore</a>
+        <img src="images/4.png" class="translateY" data-speed="0" id="base" alt="">
+    </section>
+    <!--Yaha p home khatam h-->
+
+
+    <section id="campus" class="campus">
+        <h2 id="text">Campus Map</h2>
+        <div id='myMap'></div>
+    </section>
+
+
+
+    <!--Yaha p campus map shuru h-->
+    <section id="about" class="about">
+        <h2 id="text">About Us</h2>
+        <div class="about_info">
+            <p>Frosh is a vibrant and enthusiastic group of individuals dedicated to welcoming the
+                first-year students of
+                TIET with open arms. The Society is committed to ensuring that the transition from high school to
+                university is smooth
+                and enjoyable for all students, and works tirelessly to provide them with the necessary support and
+                resources to achieve
+                success.
+                <br>
+                At Frosh Week Society, we understand that the first year of university can be overwhelming and daunting,
+                which is why we
+                are committed to making the experience as comfortable and enjoyable as possible. Our team of experienced
+                volunteers is
+                always on hand to provide guidance and support, whether it be through in-person counselling, organising
+                orientation
+                programs, or answering any questions students may have through our infodesk.
+                <br>
+                Our most exciting event of the year is undoubtedly the Frosh Week, a week-long celebration of all things
+                first-year!
+                During Frosh Week, students get the opportunity to meet their peers, explore the campus, and take part
+                in a range of
+                exciting activities and events designed to promote social integration and foster a sense of community.
+                From fun
+                icebreaker games to informative campus tours, Frosh Week has something for everyone.
+                <br>
+                We are passionate about making a positive impact on the lives of first-year students, and we believe
+                that our efforts
+                help to create a welcoming and inclusive community that fosters academic and personal growth. By joining
+                Frosh Week
+                Society, students not only get to experience the excitement and camaraderie of Frosh Week, but also have
+                the chance to
+                make meaningful connections and contribute to the success of their fellow classmates.
+                <br>
+                In short, Frosh Week Society is more than just a group of volunteers – we are a community dedicated to
+                helping new
+                students adjust to university life, and to ensuring that their first year is one of excitement, growth,
+                and success.
+            </p>
+        </div>
+
+    </section>
+    <!--Yaha p campus map khatam h h-->
+
+    <section id="gallery" class="gallery">
+        <div class="gallery-item">
+            <img src="./images/img1.jpeg" alt="Image 1">
+            <div class="overlay">
+                <h3>Lecture Hall</h3>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="./images/img2.jpeg" alt="Image 2">
+            <div class="overlay">
+                <h3>Infrastructure</h3>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="./images/img3.jpg" alt="Image 3">
+            <div class="overlay">
+                <h3>LT ramp</h3>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="./images/img4.webp" alt="Image 4">
+            <div class="overlay">
+                <h3>Library</h3>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="./images/img3.jpeg" alt="Image 4">
+            <div class="overlay">
+                <h3>Concert</h3>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="./images/img5.jpg" alt="Image 4">
+            <div class="overlay">
+                <h3>Admin Block</h3>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="container">
+            <a href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
